@@ -7,8 +7,15 @@
 </head>
 <body>
 
+  <!-- Navbar -->
   <header>
-    <h1>🎬 MovieVerse</h1>
+    <div class="nav">
+      <h1>🎬 MovieVerse</h1>
+      <div>
+        <button id="view-fav">⭐ Favorites</button>
+        <button id="theme-toggle">🌙</button>
+      </div>
+    </div>
   </header>
 
   <!-- Controls -->
@@ -27,6 +34,9 @@
       <option value="year-desc">Year Desc</option>
     </select>
   </div>
+
+  <!-- Back Button -->
+  <button id="back-home" style="display:none;">⬅ Back</button>
 
   <!-- Movies -->
   <div id="movie-container"></div>
