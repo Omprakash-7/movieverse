@@ -13,6 +13,13 @@ The application provides an interactive and user-friendly interface to explore m
 * 🎬 Dynamic movie display using API data
 * 🖼️ Custom “No Image” UI for missing posters
 * 📱 Fully responsive design
+* ❤️ Add / Remove movies from Favorites
+* ⭐ View favorite movies
+* 🚫 Prevent duplicate favorites
+* 💾 Favorites stored using Local Storage
+* ⬅ Back button to return to main page
+* 🌙 Dark / Light mode toggle
+* ⚡ Debounced search for better performance
 
 ## 🌐 API Used
 
@@ -28,5 +35,7 @@ The application provides an interactive and user-friendly interface to explore m
   * sort()
 * DOM manipulation
 * Event handling
+* Local Storage (for saving favorites)  
+* Debouncing (performance optimization)  
 
 
